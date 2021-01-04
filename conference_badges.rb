@@ -18,6 +18,9 @@ def assign_rooms(array)
   assigned_rooms = []
   array.each_with_index do |name, index|
     x = "Hello, #{name}! Youll be assigned to room #{index}!"
+    assigned_rooms.push(x)
+  end
+  return assigned_rooms
 end 
 
 def printer
