@@ -10,6 +10,7 @@ def batch_badge_creator(array)
   x = badge_maker(name)
   badges.shift(x)
  end 
+ return badges 
 end 
 
 def assign_rooms(array)
