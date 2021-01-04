@@ -1,6 +1,6 @@
 array = ["Baby", "Cookie", "Gila Monster"]
 
-def conference_badges(name)
+def badge_maker(name)
   puts "Hello, my name is #{name}."
 end 
 
@@ -8,7 +8,7 @@ def batch_badge_creator(array)
   badges = []
   array.each do |name|
    x = badge_maker(name)
- end 
+ end
    badges.shift(x)
 end 
 
