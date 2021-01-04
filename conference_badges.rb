@@ -1,6 +1,6 @@
 array = ["Baby", "Cookie", "Gila Monster"]
 
-def badge_maker(name)
+def conference_badges(name)
   puts "Hello, my name is #{name}."
 end 
 
