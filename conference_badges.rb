@@ -1,7 +1,8 @@
 array = ["Baby", "Cookie", "Gila Monster"]
 
 def badge_maker(name)
-  "Hello, my name is #{name}."
+  x = "Hello, my name is #{name}."
+  return x 
 end 
 
 def batch_badge_creator(array)
